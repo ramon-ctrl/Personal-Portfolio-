@@ -1,68 +1,63 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties & Design */
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* General styles */
+
 body {
-    font-family: "Glacial Indifference", sans-serif;
-  
+    background: var(--clr-light);
+    color: var(--clr-dark);
     margin: 0;
-    overflow-x: hidden;
-    border-bottom: 5.438rem solid white;
-  }
-  
-  #name-title {
-    position: absolute;
-    top: -2.313rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-#firstFirstName {
-font-size: 744%;
-color: #545454;
-font-family: "Archivo Black";
-text-shadow: 0.063rem 0.063rem black;
-margin-top: 9.5rem;
-margin-bottom: -7.813rem;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
 }
 
-.apostropheSymbol {
-padding-right: 1.5rem; 
-font-family: "Dynalight";
+img {
+    display: block;
+    max-width: 100%;
 }
 
-#fancy-more.fancy-text {
-font-family: "WindSong";
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
 }
 
-.fancy-text {
-color: #c8c4bd;
-text-shadow: 0.188rem 0.25rem black;
-margin-top: 5.15rem;
-margin-bottom: -0.188rem;
-
-}
-
-#fancy-more {
-font-size: 8.563rem;
-}
-
-#fs-dev {
-font-size: 113%;
-color: black;
-margin-top: 0.813rem;
-margin-bottom: 0%;
-}
-
-.img-bkgrd {
-height: 31.25rem;
-width: 100vw;
-
-background-size: cover !important;
-background-position: 50% 50%;
-background-image: url("images/blue-bkgrd.jpg");
-}
-
-.overlay {
-opacity: 67%;
-height: 31.25rem;
-width: 100%;
-
-background: #5ce1e6;
-}
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
