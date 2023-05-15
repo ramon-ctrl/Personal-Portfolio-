@@ -153,7 +153,7 @@ section .title::after {
 /* Home section styling code */
 .home {
     display: flex;
-    background: url("images/Home-BG.png") no-repeat center;
+    background: url("Image.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
