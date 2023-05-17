@@ -502,10 +502,10 @@ footer span a:hover {
 	.logo img {
 		width: 150px;
 	}
-}
+
 
 @media (max-width: 500px) {
-    .home .home-content .text-2 
+    .home .home-content .text-2 {
         font-size: 50px;
     }
     .home .home-content .text-3 {
@@ -518,6 +518,7 @@ footer span a:hover {
     .contact .right form .fields {
         flex-direction: column;
     }
+}
     .contact .right form .name,
     .contact .right form .email {
         margin: 0;
@@ -533,3 +534,4 @@ footer span a:hover {
         font-size: 23px;
         line-height: 38px;
     }
+}
