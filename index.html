@@ -1,183 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramon Magana's Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramon Magana's | Portfolio Website</title>
+  <!-- Goole Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Box Icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<!-- Scroll up code -->
-    <div class="scroll-up-btn">
-        <i class="fa fa-angle-up"></i>
-    </div>
-	
-	<!-- Nav menu code -->
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><img src="Logo.png" /></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+  <!-- main Start -->
+  <div class="main-wrapper">
+    <!-- Header Start -->
+    <div class="header">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="50" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonial.html">testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+
+
             </ul>
-            <div class="menu-btn">
-                <i class="fa fa-bars"></i>
-            </div>
+
+          </div>
         </div>
-    </nav>
-
-    <!-- Home section start code -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, I am</div>
-                <div class="text-2">Ramon Magana</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
-            </div>
+      </nav>
+      <!-- Navbar End -->
+    </div>
+    <!-- Header End -->
+    <!-- Banner content Start -->
+    <div class="banner-section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <h1 class="banner-title">
+              Hi, I'm Ramon Magana. 👋
+            </h1>
+            <p class="banner-desc">
+              I am a Web Developer, and I'm very
+              passionate and dedicated to my work.
+            </p>
+            <p class="banner-desc pb-3">
+              Im a ux /ui designer austin based who loves
+              clean, simple &amp; unique design.
+              i also enjoy crafting brand identities,
+              icons, &amp; ilustration work.
+            </p>
+            <a href="about.html" class="banner-btn">
+              read more &rarr;
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-8">
+            <img src="img/1.svg" alt="">
+          </div>
         </div>
-    </section>
-                
+      </div>
+    </div>
+    <!-- Banner content End -->
+  </div>
+  <!-- main End -->
 
-      
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="container">
+      <div class="social-media text-center">
+        <ul class="footer-list">
+          <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+          <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+          <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+          <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
 
-    <!-- About section start code -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-			
-            <div class="about-content">
-                <div class="column left">
-                    <img src="IMG_P.JPG" alt="">
-                </div>
-				
-                <div class="column right">
-                    <div class="text">I'm Ramon Magana and I'm a <span class="typing-2"></span></div>
-                    <p>My name is Ramon Magana. Currently, I am a high school senior(soon to be a college freshman!)I study at Clovis West High School and at the Center of Advanced Research and Technology, commonly known as CART. From a young age, I've always been fascinated by anything technology and business related, I do consider myself to have knowledge in both industries. At CART, I have taken the Web App Development lab. There I  learned and discovered numerous interactive possibilities, working with functions, objects, arrays, variables, data types, and much more. I am a firm believer in that learning anything new aids in keeping one’s mind engaged. Out of personal I have explored market behavior, the laws of supply and demand, and other important economic policies. I believe business frames many choices we have to make when it comes to work and consumption.
-                        </p>
-                    <a href="#">Click Here</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services section start code -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My Projects</h2>
-			
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fa fa-pencil"></i>
-                        <div class="text">Composition Writings</div>
-                        <p>To me writing is about having developed self-awareness about what one is and isn't capable of.</p>
-                    </div>
-                </div>
-				
-                <div class="card">
-                    <div class="box">
-                        <i class="fa fa-desktop"></i>
-                        <div class="text">Web App Dev</div>
-                        <p>Provided are various websites I have worked on effeciently in order to provide a testament of what I am capable of in the programming world.</p>
-                    </div>
-                </div>
-				
-                <div class="card">
-                    <div class="box">
-                        <i class="fa fa-check"></i>
-                        <div class="text">Personal Achievements</div>
-                        <p>Whether it is volunteer work or online courses, I am always searching for something new to strive in. </p>
-                    </div>
-                </div>
-               </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact section start code -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Let's clear up any issues together :)</div>
-					
-                    <p>Feel free to fill in the form or simply use my contacts listed below. If you need to advance on a project, let's work on it!</p>
-					
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fa fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">ramonmagana34@icloud.com</div>
-                            </div>
-                        </div>
-						
-                        <div class="row">
-                            <i class="fa fa-linkedin"></i>
-                            <div class="info">
-                                <div class="head">LinkedIn</div>
-                                <div class="sub-title">Ramon Magana</div>
-                            </div>
-                        </div>
-						
-                        <div class="row">
-                            <i class="fa fa-github"></i>
-                            <div class="info">
-                                <div class="head">Github</div>
-                                <div class="sub-title">ramon-ctrl</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-					
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-							
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-						
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-						
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-						
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer section start code -->
-    <footer>
-        <span>Created By <a href="Ramon Magana">Ramon Magana</a> | <span class="fa fa-copyright"></span> 2023</span>
-    </footer>
-
-    <script src="script.js"></script>
+  <!-- Bootstarp JS File -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
-      
-    
-      
-                 
