@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <style>
+  body{
+   font-family: 'Avenir Next', sans-serif;
+   background: #191D21;
+   font-weight: 300;
+   font-size: 14px;
+   padding: 20px;
+    }
+
+  .masonryholder{
+    column-count: 4;
+    column-gap: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+  .masonryblocks{
+    display: inline-block;
+    background: #ebeded;
+    padding: 20px;
+    margin: 0 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+  .masonryblocks img{
+    width: 100%;
+    }
+
+  @media screen and (max-width:768px){
+    .masonryholder{
+      column-count: 1;
+    }
+    }
+
+  @media screen and (min-width:769px){
+    .masonryholder{
+      column-count: 2;
+    }
+    }
+
+  @media screen and (min-width:1080px){
+    .masonryholder{
+      column-count: 3;
+    }
+    }
+
+  @media screen and (min-width:1200px){
+    .masonryholder{
+      column-count: 4;
+    }
+    }
+</style>
+  </head>
+
+
+  <body>
+    <div class="masonryholder">
+      <div class="masonryblocks"><img src="https://github.com/arjunkhara/css-images/blob/master/Mercury.png?raw=true">Things I Enjoy</div>
+
+        <div class="masonryblocks"><img src="videogames.jpg">Playing Video Games</div>
+
+        <div class="masonryblocks"><img src="hobby.jpg">Playing Guitar</div>
+
+        <div class="masonryblocks"><img src="gettoknow.jpg">Get to Know Me!<br/>My name is Ramon Magana, I am 18 years old and live in Fresno, California. I attend Clovis West High School, and I’m also enrolled at CART as a student in the Web Application Lab. I'm a silly carefree person that everyone seems to like. I’m the oldest sibling out of four. Although I am pretty quiet when it comes to being around people I don’t know. I do enjoy spending time with friends and meeting new people.</div>
+
+        <div class="masonryblocks"><img src="running.jpg">Running<br/>I love running, over the summer I spent almost everyday running the trail that leads to Woodward Park! On occasions I’ll run with my friends or brother. When I run my mind goes free without an inkling of stress.</div>
+
+        <div class="masonryblocks"><img src="travel.jpg">Travel<br/>Places I have traveled to are cities within Mexico, these being Culiacán, Rosarito, Cancún, Michoacán, and Guadalajara . I haven't been to any other state in the U.S. other than California. I have been to many cities also within California, not just Fresno. I would love to visit many places in Europe like France, Spain, Italy, Rome, and Greece. It’s always been a dream of mine to visit these places because of the sheer beauty and dazzling environment.</div>
+        <div class="masonryblocks"><img src="programming.jpg">Web Programming</div>
+
+        <div class="masonryblocks"><img src="writing.jpg">Writing</div>
+
+        <div class="masonryblocks"><img src="future.jpg">Future Plans<br/>There used to be nine planets. The demotion of Pluto has not been without controversy and the the International Astronomical Union has not escaped criticism, along with prominent names in its ranks, for its role in recategorising Pluto as a member of the Kuiper Belt.</div>
+    </div>
+  </body>
+</html>
